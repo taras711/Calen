@@ -1,0 +1,27 @@
+{
+    "apb": [
+        "#cornerRadius: [0, 0, 50, 50, 'px'] - This is comment",
+        "#textColor: 'green' ( apb.textColor = 'green' )",
+        "#setSize: 1, 0.1  ( apb.setSize(1, 0.1) )",
+        "menu: true",
+        "icon:'folder_open'",
+        "animate:'slideInDown',500"
+    ],
+    "app": [
+        "SetOrientation: 'Portrait'",
+        "SetStatusBarColor: '#29a5f2'"
+    ],
+    "main": [],
+    "app_drawer": {
+        "show": true,
+        "position": "left",
+        "#label": "My menu"
+    },
+    "mainScr": [
+        "pading: 0, 0.05, 0, 0.05"
+    ],
+    "drawer": [],
+    "drawLay": [],
+    "drawer_menu": [],
+    "loader": []
+}

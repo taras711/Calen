@@ -1,7 +1,20 @@
 class View {
 
     constructor() {
+       this.object = {}
+    }
 
+    Id( object ) {
+        let id = Object.keys({object})[0];
+        this.object[id] = object;
+    }
+
+    /**
+     * Rendering style file AppStyle.json
+     * @param {object} obj
+     */
+    StyleRender(object) {
+        return object.split("@");
     }
 
     /**
